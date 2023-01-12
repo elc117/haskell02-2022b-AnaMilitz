@@ -7,9 +7,20 @@ hasFever listaTemperaturas = filter isFever listaTemperaturas
 
 --2) Escreva uma função hasFever' :: [Float] -> [Float] que resolva a questão anterior usando lambda.
 
+hasFever' :: [Float] -> [Float]
+hasFever' listaTemperaturas = filter (\temperaturaRecebida -> temperaturaRecebida > 36.7) listaTemperaturas
+
 --3) Crie uma função itemize :: [String] -> [String] que receba uma lista de strings e adicione tags HTML <li> e </li> antes e depois de cada string. Resolva esta questão usando lambda.
+itemize :: [String] -> [String]
+itemize listaStrings = map (\word-> "<li>" ++ word ++ "</li>") listaStrings
 
 --4) Escreva uma função bigCircles :: Float -> [Float] -> [Float] que receba um número e uma lista de raios de círculos. Essa função deverá retornar somente aqueles raios de círculos cuja área seja maior que o número passado como argumento.
+circleArea :: Float -> Float
+circleArea r = pi*(r^2)
+
+bigCircles :: Float -> [Float] -> [Float]
+bigCircles numero raiosCirculos = filter (\circleArea-> circleArea > numero) raiosCirculos 
+
 
 --5) Escreva uma função quarentine :: [(String,Float)] -> [(String,Float)] que receba uma lista de tuplas com nomes de pessoas e suas temperaturas corpóreas, e selecione aquelas que têm febre.
 
@@ -25,3 +36,12 @@ main = do
   --1)
   --print(isFever 38.9)
   print(hasFever [36,36.7, 38, 39, 40.1])
+
+  --2)
+  print(hasFever' [35,50, 60, 61, 25])
+
+  --3)
+  print(itemize ["palavra", "oi", "ola"])
+
+  --4)
+  print(bigCircles 5 [4,5,6])
