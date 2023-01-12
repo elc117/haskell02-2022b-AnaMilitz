@@ -21,8 +21,9 @@ circleArea r = pi*(r^2)
 bigCircles :: Float -> [Float] -> [Float]
 bigCircles numero raiosCirculos = filter (\circleArea-> circleArea > numero) raiosCirculos 
 
-
 --5) Escreva uma função quarentine :: [(String,Float)] -> [(String,Float)] que receba uma lista de tuplas com nomes de pessoas e suas temperaturas corpóreas, e selecione aquelas que têm febre.
+--quarentine :: [(String,Float)] -> [(String,Float)]
+--quarentine nomesPessoas temperaturasCorporeas = filter (\temperatura -> temperatura > 36.7) nomesPessoas temperaturasCorporeas
 
 --6) Escreva uma função agesIn :: [Int] -> Int -> [Int] que receba uma lista de anos de nascimento de algumas pessoas e um ano de referência. A lista resultante terá idades calculadas considerando o ano de referência (idades aproximadas, já que só consideram o ano, não a data completa de nascimento). Resolva esta questão usando lambda.
 
@@ -44,4 +45,4 @@ main = do
   print(itemize ["palavra", "oi", "ola"])
 
   --4)
-  print(bigCircles 5 [4,5,6])
+  print(bigCircles 5.0 [4.0,5,6])
