@@ -1,0 +1,12 @@
+<svg width='500.00' height='500.00' xmlns='http://www.w3.org/2000/svg'>
+<rect width='500' height='500' fill='rgba(24,25,34,255)' />
+<circle cx='20' cy='40' r='120' fill='rgba(211,28,22,255)' stroke='rgba(235,133,49,255)' stroke-width='11' />
+<circle cx='140' cy='140' r='15' fill='rgb(204,167,104,255)' stroke='rgba(251,241,231,255)' stroke-width='4' />
+<circle cx='170' cy='170' r='20' fill='rgb(249,211,117,255)' stroke='rgba(251,241,231,255)' stroke-width='4' />
+<circle cx='210' cy='210' r='25' fill='rgb(49,131,135,255)' stroke='rgba(251,241,231,255)' stroke-width='4' />
+<circle cx='240' cy='240' r='12' fill='rgb(209,66,40,255)' stroke='rgba(251,241,231,255)' stroke-width='4' />
+<circle cx='280' cy='280' r='40' fill='rgb(244,127,47,255)' stroke='rgba(251,241,231,255)' stroke-width='4' />
+<circle cx='340' cy='340' r='40' fill='rgba(250,214,101,255)' stroke='rgba(251,241,231,255)' stroke-width='4' />
+<circle cx='390' cy='390' r='25' fill='rgb(145,227,248,255)' stroke='rgba(251,241,231,255)' stroke-width='4' />
+<circle cx='430' cy='430' r='25' fill='rgb(63,144,201,255)' stroke='rgba(251,241,231,255)' stroke-width='4' />
+</svg>
